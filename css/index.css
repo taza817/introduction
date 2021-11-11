@@ -1,0 +1,56 @@
+
+
+
+/* contents */
+.contents {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  z-index: 1;
+}
+
+#main_content {
+  width: 80%;
+}
+
+#main_content section {
+  position: relative;
+  padding-top: 150px;
+  height: 700px;
+}
+
+#main_content section h2 {
+  font-size: 5em;
+}
+
+ul.content {
+  padding-top: 30px;
+  list-style: none;
+}
+
+ul.content li {
+  padding-bottom: 30px;
+  font-size: 1.3em;
+}
+
+/* 
+.animate-title {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: rgb(123, 130, 148);
+  font-size: 3.5rem;
+  opacity: 0;
+}
+
+.animate-title .char {
+  opacity: 0;
+}
+
+.animate-title.inview {
+  opacity: 1;
+}
+
+.animate-title.inview .char{
+  display: inline-block;
+} */

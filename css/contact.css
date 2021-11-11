@@ -1,0 +1,42 @@
+.header_content {
+  top: 0px;
+}
+
+.contents {
+  /* padding-top: 50px; */
+  z-index: 1;
+}
+
+.contents form {
+  font-size: 1.2em;
+  width: 370px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.contents form dl dd input,
+.contents form dl dd textarea {
+  border-width: 2px;
+  border-color: black;
+  border-radius: 6px;
+}
+
+.submit {
+  background-color: rgb(93, 142, 247);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 18px;
+  box-shadow: 3px 3px 0px 0px rgba(38, 38, 39, 0.5);
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-31.35px, 17px);
+  cursor: pointer;
+}
+
+.submit:active {
+  transform: translate(-28.35px, 20px);
+  box-shadow: none;
+}
